@@ -37,7 +37,6 @@ jobs:
         with:
           script-name: hello_world.py
           onefile: true
-          standalone: true
   
       - name: Upload Artifacts
         uses: actions/upload-artifact@v3
