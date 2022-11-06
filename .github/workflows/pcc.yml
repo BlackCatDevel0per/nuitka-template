@@ -40,7 +40,6 @@ jobs:
           script-name: print_cpu_count.py
           onefile: true
           standalone: true
-          enable-plugins: psutil
   
       - name: Upload Artifacts
         uses: actions/upload-artifact@v3
