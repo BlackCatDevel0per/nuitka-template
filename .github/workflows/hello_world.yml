@@ -22,7 +22,7 @@ jobs:
         uses: actions/checkout@v3
 
       - name: Setup Python
-        uses: actions/setup-python@v0.3.3
+        uses: actions/setup-python@v0.4
         with:
           python-version: '3.8.10'
           architecture: 'x64'
@@ -35,7 +35,7 @@ jobs:
           pip install -r requirements.txt
           
       - name: Build Executable
-        uses: Nuitka/Nuitka-Action@v0.4
+        uses: Nuitka/Nuitka-Action@v0.3.2
         with:
           script-name: hello_world.py
           onefile: true
