@@ -37,7 +37,7 @@ jobs:
       - name: Build Executable
         uses: Nuitka/Nuitka-Action@v0.3.2
         with:
-          script-name: hello_world.py
+          script-name: print_cpu_count.py
           onefile: true
           standalone: true
   
